@@ -1,0 +1,447 @@
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- CSRF Token --> 
+  <meta name="csrf-token" content=""> 
+  <title>HACKERGREEN</title> 
+  <!-- Fonts --> 
+  <link rel="dns-prefetch" href="//fonts.bunny.net"> 
+  <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet"> 
+  <!-- Scripts --> 
+  <link rel="icon" type="image/png" href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" sizes="32x32"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg"> 
+  <style>
+        /* Apply the colors dynamically */
+        :root {
+            --primary-color: #000000      !important;
+            --secondary-color: #000000      !important;
+            --tertiary-color: #632a9f      !important;
+            --button-color: #e71b5d      !important;
+            --notices-color: #000000      !important;
+            /* Add other color variables as needed */
+        }
+    </style> 
+  <link rel="preload" as="style" href="https://app.betserver.site/build/assets/app-5950027b.css"> 
+  <link rel="preload" as="style" href="https://app.betserver.site/build/assets/splide.min-a75702c1.css"> 
+  <link rel="preload" as="style" href="https://app.betserver.site/build/assets/style-5c56c5e4.css"> 
+  <link rel="modulepreload" href="https://app.betserver.site/build/assets/app-0bf372e6.js"> 
+  <link rel="stylesheet" href="https://app.betserver.site/build/assets/app-5950027b.css"> 
+  <link rel="stylesheet" href="https://app.betserver.site/build/assets/splide.min-a75702c1.css"> 
+  <link rel="stylesheet" href="https://app.betserver.site/build/assets/style-5c56c5e4.css"> 
+  <!-- Web Application Manifest --> 
+  <link rel="manifest" href=""> 
+  <!-- Chrome for Android theme color --> 
+  <meta name="theme-color" content="#0000CD"> 
+  <!-- Add to homescreen for Chrome on Android --> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <meta name="application-name" content="HACKERGREEN"> 
+  <link rel="icon" sizes="512x512" href=""> 
+  <!-- Add to homescreen for Safari on iOS --> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="apple-mobile-web-app-title" content="HACKERGREEN"> 
+  <link rel="apple-touch-icon" href="https://betnunes.com/assets/images/branding/shine-betnunes.png"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <link href="https://i.ibb.co/3ySVc44/SAVE-20230724-224031.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"> 
+  <!-- Tile for Win8 --> 
+  <meta name="msapplication-TileColor" content="#0C1624FF"> 
+  <meta name="msapplication-TileImage" content="https://betnunes.com/assets/images/branding/shine-betnunes.png"> 
+  <script type="text/javascript">
+    // Initialize the service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/serviceworker.js', {
+            scope: '.'
+        }).then(function (registration) {
+            // Registration was successful
+            console.log('Laravel PWA: ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+            // registration failed :(
+            console.log('Laravel PWA: ServiceWorker registration failed: ', err);
+        });
+    }
+</script> 
+  <style>
+        .disabled-lock {
+            position: relative;
+            opacity: 0.5;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .disabled-lock::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            background-image: url('https://cdn-icons-png.flaticon.com/128/62/62726.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style> 
+ </head> 
+ <body class="bg-white dark-mode-active"> 
+  <div class="appHeader scrolled" style="max-width: 700px;margin-left: auto; margin-right: auto;"> 
+   <div class="left"> 
+    <a href="#" class="headerButton toggle-searchbox gap-2"> <img src="https://i.ibb.co/7YqGYf4/SAVE-20230724-224031-removebg-preview.png" alt="" style="max-width: 120px; max-height: 50px"> </a> 
+   </div> 
+   <div class="right"> 
+    <div class="btn btn-sm" style="height: 25px;background-color: #00FF00"> 
+     <img src="https://cdn-icons-png.flaticon.com/128/720/720711.png" alt="" style="max-width: 12px"> 
+     <span class="ms-1 fw-bold">versão 1.0</span> 
+    </div> 
+    <div style="height: 25px; margin: 4px" onclick="$('#logout_form').submit()"> 
+      
+    </div> 
+    <form action="https://app.betserver.site/slotsbet/user/logout" method="POST" id="logout_form"> 
+     <input type="hidden" name="_token" value=""> 
+    </form> 
+   </div> 
+  </div> 
+  <div style="max-width: 700px;margin-left: auto; margin-right: auto;"> 
+   <div id="appCapsule"> 
+    <div class="text-center my-2"> 
+     <div style="overflow: hidden"> 
+      <div class="d-flex gap-3 justify-content-center align-items-center all-notifications"> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Helena Lima - Bac bo - <span class="text-success">R$ 361.95</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Olivia Castro - Bac bo - <span class="text-success">R$ 761.88</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">João Cardoso - Hotline - <span class="text-success">R$ 608.84</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Eduardo Costa - Gates - <span class="text-success">R$ 657.80</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Olivia Castro - Gates - <span class="text-success">R$ 204.30</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Jorge Oliveira - Bac bo - <span class="text-success">R$ 212.09</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Giovanna Marques - Gates - <span class="text-success">R$ 459.45</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Gustavo Rodrigues - Fortune OX - <span class="text-success">R$ 195.81</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Carlos Oliveira - Penalty - <span class="text-success">R$ 758.59</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Lucas Souza - Dragon Tiger - <span class="text-success">R$ 311.90</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Beatriz Santos - Space Man - <span class="text-success">R$ 665.74</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Pedro Costa - Fan Tan Live - <span class="text-success">R$ 84.19</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Tatiana Ribeiro - Dragon Tiger - <span class="text-success">R$ 353.20</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Jorge Oliveira - Crazy Time - <span class="text-success">R$ 987.63</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Lucas Souza - Andar Bahar - <span class="text-success">R$ 87.05</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Ana Silva - Hotline - <span class="text-success">R$ 690.33</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Maria Carvalho - Fortune Tiger - <span class="text-success">R$ 543.42</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Samuel Ferreira - Crazy Time - <span class="text-success">R$ 916.48</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Karina Fernandes - Andar Bahar - <span class="text-success">R$ 99.61</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Karina Fernandes - Bac bo - <span class="text-success">R$ 544.74</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Nathan Santos - Space Man - <span class="text-success">R$ 154.16</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Olivia Castro - Dragon Tiger - <span class="text-success">R$ 883.60</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Giovanna Marques - Mines - <span class="text-success">R$ 300.68</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Helena Lima - Fan Tan Live - <span class="text-success">R$ 562.38</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Olivia Castro - Andar Bahar - <span class="text-success">R$ 500.39</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Gustavo Rodrigues - Aviator - <span class="text-success">R$ 236.93</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Diego Barbosa - Dragon Tiger - <span class="text-success">R$ 117.32</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Larissa Sousa - Penalty - <span class="text-success">R$ 998.11</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Samuel Ferreira - Fortune OX - <span class="text-success">R$ 794.65</span></span> 
+       </div> 
+       <div class="notification d-flex justify-content-center align-items-center px-2 gap-2"> 
+        <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px"> 
+        <span class="text-small text-white" style="font-size: 10px">Eduardo Costa - Gates - <span class="text-success">R$ 165.76</span></span> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div style="height: 25px; margin: 4px" onclick="$('#logout_form').submit()">
+    <div class="text-center my-2" onclick="window.location=''"> 
+     <img src="https://bullsbet.net/storage/bullsbet/images/banners/1690237007_banner.png" alt="" class="img-fluid"> 
+    </div> 
+    <div class="d-flex justify-content-center"> 
+     <div class="header-large-title bg-primary text-center" style="width: fit-content; border-radius: 6px;margin-top: 16px;"> 
+      <span style="font-size: 14px;">ESCOLHA O JOGO PARA ACESSAR E RECEBER OS SINAIS</span> 	  
+     </div> 	 
+    </div>    
+    </div> 
+    <div class="section full mt-3"> 
+     <div class=" mx-3 pt-2 pb-2"> 
+      <div id="type_slots"> 
+       <div class="d-flex justify-content-between align-items-center"> 
+        <div class="d-flex justify-content-start align-items-center mb-2 mt-2 ms-3"> 
+         <img src="https://cdn-icons-png.flaticon.com/128/5166/5166323.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+         <h4 class="fw-bold ms-1 text-uppercase mt-1">Cassino</h4>		 
+        </div>  
+       </div> 
+       <div class="border p-2 custom-card "> 
+        <div class="row"> 
+         <div class="col-4 mb-2 d-flex justify-content-center " onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Pasta%20compartilhar/NewFolder/Mines2.html'"> 
+          <img src="https://www.appsheet.com/dbs/table/qv0aIwhwY-4Qm-EQy2J5Xe/row/U4sSeh4f914RYbEQ32bXRa" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Roleta.html'"> 
+          <img src="https://spybet.app/wp-content/uploads/2023/06/Roleta-Brasileira-Ao-Vivo-e1686027466413-300x300.jpg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center " onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Pasta%20compartilhar/NewFolder/Aviator1.html'"> 
+          <img src="https://www.appsheet.com/dbs/table/qv0aIwhwY-4Qm-EQy2J5Xe/row/U4sSeh4f914RYbEQ32bXRa" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Bacbo.html'"> 
+          <img src="https://spybet.app/wp-content/uploads/2023/06/Bac-Bo-e1686027458306-300x300.jpg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center " onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Pasta%20compartilhar/NewFolder/Tigger1.html'"> 
+          <img src="https://spybet.app/wp-content/uploads/2023/06/Fortune-Tiger-e1686027453568-300x300.jpg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center " onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Pasta%20compartilhar/NewFolder/P%C3%AAnalti1.html'"> 
+          <img src="https://spybet.app/wp-content/uploads/2023/06/Penalty-Shoot-Out-e1686027440218-300x300.jpg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/Spaceman.html'"> 
+          <img src="https://spybet.app/wp-content/uploads/2023/06/Space-Man-e1686027445856-300x300.jpg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://app.betserver.site/slotsbet/user/game/16'"> 
+          <img src="https://darksbet.com/wp-content/uploads/2023/06/fortuneox.webp" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="type_cartas"> 
+       <div class="d-flex justify-content-between align-items-center"> 
+        <div class="d-flex justify-content-start align-items-center mb-2 mt-2 ms-3"> 
+         <img src="https://cdn-icons-png.flaticon.com/128/5166/5166323.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+         <h4 class="fw-bold ms-1 text-uppercase mt-1">Populares
+		 </h4> 
+        </div> 
+       </div> 
+       <div class="border p-2 custom-card "> 
+        <div class="row"> 
+         <div class="col-4 mb-2 d-flex justify-content-center justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/foguetinho.html'"> 
+          <img src="https://betnunes.com/assets/images/banners/foguetinho.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/aviator%202.html'"> 
+          <img src="https://betnunes.com/assets/images/banners/aviator-wars.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/motograu.html'"> 
+          <img src="https://betnunes.com/assets/images/banners/moto-grau.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="type_roletas"> 
+       <div class="d-flex justify-content-between align-items-center"> 
+        <div class="d-flex justify-content-start align-items-center mb-2 mt-2 ms-3"> 
+         <img src="https://cdn-icons-png.flaticon.com/128/5166/5166323.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+         <h4 class="fw-bold ms-1 text-uppercase mt-1">TOPS</h4> 
+        </div> 
+       </div> 
+       <div class="border p-2 custom-card "> 
+        <div class="row"> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://app.betserver.site/slotsbet/user/game/9'"> 
+          <img src="https://betnunes.com/assets/images/banners/speed-cash.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://app.betserver.site/slotsbet/user/game/10'"> 
+          <img src="https://betnunes.com/assets/images/banners/double.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+		 <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://dev-projeto2023.pantheonsite.io/23%20GTA/wall-street.html'"> 
+          <img src="https://betnunes.com/assets/images/banners/arabe.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div>
+        </div> 
+       </div> 
+      </div> 
+      <div id="type_dados"> 
+       <div class="d-flex justify-content-between align-items-center"> 
+        <div class="d-flex justify-content-start align-items-center mb-2 mt-2 ms-3"> 
+         <img src="https://cdn-icons-png.flaticon.com/128/5166/5166323.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+         <h4 class="fw-bold ms-1 text-uppercase mt-1">Master</h4> 
+        </div> 
+       </div> 
+       <div class="border p-2 custom-card "> 
+        <div class="row"> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://app.betserver.site/slotsbet/user/game/11'"> 
+          <img src="https://betnunes.com/assets/images/banners/pipa.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://app.betserver.site/slotsbet/user/game/12'"> 
+          <img src="https://betnunes.com/assets/images/banners/supino.png" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+         <div class="col-4 mb-2 d-flex justify-content-center disabled-lock" onclick="location.href='https://app.betserver.site/slotsbet/user/game/13'"> 
+          <img src="https://betnunes.com/assets/images/banners/moto-grau.jpeg" class="rounded" alt="" style="max-width: 100px; max-height: 100px"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      
+         </div> 
+         
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="appBottomMenu" style="max-width: 700px;margin-left: auto; margin-right: auto;"> 
+    <a href="https://go.perfectpay.com.br/PPU38CMM638" class="item"> 
+     <div class="col"> 
+      <div class="d-flex justify-content-center align-items-center flex-column gap-1 rounded py-1"> 
+       <img src="https://cdn-icons-png.flaticon.com/128/808/808439.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+       <span class="text-white">VIP</span> 
+      </div> 
+     </div> </a> 
+    <a href="#type_dados" class="item"> 
+     <div class="col"> 
+      <div class="d-flex justify-content-center align-items-center flex-column gap-1 py-1"> 
+       <img src="https://cdn-icons-png.flaticon.com/128/808/808439.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+       <span class="text-white">Master</span> 
+      </div> 
+     </div> </a> 
+    <a href="https://dev-projeto2023.pantheonsite.io/23%20GTA/Pasta%20compartilhar/HACKERGREEN.html" class="item"> 
+     <div class="col d-flex justify-content-center align-items-center flex-column gap-1"> 
+      <div style="position: relative"> 
+       <img src="https://i.ibb.co/7YqGYf4/SAVE-20230724-224031-removebg-preview.png" class="bg-primary p-1 shadow" style="border-radius: 100%; width: 70px; height: 65px; position: absolute; bottom: -1rem; left: -2.2rem; right: 2rem" alt=""> 
+      </div> 
+      <span class="text-white mt-3">HACKERGREEN</span> 
+     </div> </a> 
+    <a href="#type_cartas" class="item"> 
+     <div class="col"> 
+      <div class="d-flex justify-content-center align-items-center flex-column gap-1 py-1"> 
+       <img src="https://cdn-icons-png.flaticon.com/128/808/808439.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+       <span class="text-white">Populares</span> 
+      </div> 
+     </div> </a> 
+    <a href="https://br4bet.com/register/cadastrolb" class="item"> 
+      <div class="d-flex justify-content-center align-items-center flex-column gap-1 py-1"> 
+       <img src="https://cdn-icons-png.flaticon.com/128/808/808439.png" class="bg-primary p-1 shadow rounded" alt="" width="40" height="45"> 
+       <span class="text-white">cadastro</span> 
+      </div> 
+     </div> </a> 
+   </div> 
+  </div> 
+  <script>
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+            document.querySelector('.appHeader').style.backgroundColor = '#0F1C2F';
+        } else {
+            document.querySelector('.appHeader').style.backgroundColor = 'rgba(15,28,47,0)';
+        }
+    });
+</script> 
+  <script type="module">
+        $(document).ready(function() {
+            var fullNames = [
+                "Ana Silva", "Beatriz Santos", "Carlos Oliveira", "Daniel Almeida", "Eduardo Costa",
+                "Fernanda Pereira", "Gustavo Rodrigues", "Helena Lima", "Isabela Gomes", "João Cardoso",
+                "Karina Fernandes", "Lucas Souza", "Maria Carvalho", "Nathan Santos", "Olivia Castro",
+                "Pedro Costa", "Raquel Alves", "Samuel Ferreira", "Tatiana Ribeiro", "Vitor Andrade",
+                "Antonio Pereira", "Carolina Cunha", "Diego Barbosa", "Fabiana Gonçalves", "Giovanna Marques",
+                "Hugo Rodrigues", "Isadora Castro", "Jorge Oliveira", "Larissa Sousa", "Mariano Costa"
+            ];
+
+            var gameNames = ["Gates","Mines","Space Man","Hotline","Penalty","Aviator","Dragon Tiger","Football Studio INgl\u00eas Cards","Crazy Time","Roulette 2","Fan Tan Live","Bac bo","Football Studio Dice","Fortune Tiger","Fortune OX","Andar Bahar"];
+
+            var containerWidth = $('.all-notifications').width();
+            var notificationsWidth = 0;
+
+            for (var i = 0; i < 30; i++) {
+                var randomFullName = fullNames[Math.floor(Math.random() * fullNames.length)];
+                var randomGameName = gameNames[Math.floor(Math.random() * gameNames.length)];
+                var randomReward = (Math.random() * (1000 - 1) + 1).toFixed(2);
+                var notification = `<div class="notification d-flex justify-content-center align-items-center px-2 gap-2">
+                    <img src="https://app.betserver.site/img/icon/notification-icon.webp" alt="" style="width: 10px">
+                    <span class="text-small text-white" style="font-size: 10px">${randomFullName} - ${randomGameName} - <span
+                            class="text-success">R$ ${randomReward}</span></span>
+                </div>`
+                $('.all-notifications').append(notification);
+                notificationsWidth += notification[0].offsetWidth;
+            }
+            var cloneCount = Math.ceil(containerWidth / notificationsWidth);
+            for (var j = 0; j < cloneCount; j++) {
+                $('.all-notifications').append($('.notification').clone());
+            }
+
+        });
+    </script> 
+ </body>
+</html>
+​​-
